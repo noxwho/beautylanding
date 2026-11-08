@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Демонстрационный сайт репетитора по математике: подход к обучению, форматы занятий и примеры стоимости.">
+    <meta name="theme-color" content="#f7f6f2">
+    <title>Репетитор по математике — TutorLanding · демо</title>
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:title" content="TutorLanding — репетитор по математике · демо">
+    <meta property="og:description" content="Пример сайта частного репетитора: подход к обучению, форматы занятий и демонстрационные цены.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="menu.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <header class="header">
+        <div class="container header-inner">
+            <a class="brand" href="#home" aria-label="TutorLanding — на главную"><span class="brand-icon" aria-hidden="true">m⁺</span>TutorLanding<span class="accent">.</span></a>
+            <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-navigation"><span></span><span></span><span></span></button>
+            <nav id="main-navigation" aria-label="Основная навигация">
+                <a href="#about">О преподавателе</a><a href="#benefits">Преимущества</a><a href="#format">Формат</a><a href="#pricing">Стоимость</a><a href="#contacts">Контакты</a>
+            </nav>
+            <a class="button button-small" href="#contacts">Записаться <span aria-hidden="true">↗</span></a>
+        </div>
+    </header>
+    <main id="main" tabindex="-1">
+        <section class="hero container" id="home" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> МАТЕМАТИКА БЕЗ ЛИШНЕГО СТРЕССА</p>
+                <h1 id="hero-title">Не заучивать.<br>А <span class="accent">понимать.</span></h1>
+                <p class="lead">Разобраться в сложной теме, почувствовать уверенность и увидеть логику за формулами. Шаг за шагом, в своём темпе.</p>
+                <a class="button" href="#contacts">Обсудить занятия <span aria-hidden="true">↗</span></a>
+                <p class="hero-note">Индивидуальный подход. Спокойная атмосфера.</p>
+            </div>
+            <div class="math-board" role="img" aria-label="Иллюстрация: график функции y равно x в квадрате. От задачи к пониманию.">
+                <div class="board-top"><span>НЕМНОГО МАТЕМАТИКИ</span><span aria-hidden="true">↗</span></div>
+                <span class="formula" aria-hidden="true">y = x²</span>
+                <svg class="graph" viewBox="0 0 420 290" width="420" height="290" aria-hidden="true" focusable="false">
+                    <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#dce3ef" stroke-width="1"/></pattern></defs>
+                    <rect width="420" height="290" fill="url(#grid)"/>
+                    <path d="M28 244H394M210 275V14M388 239L394 244L388 249M205 20L210 14L215 20" fill="none" stroke="#8f9bb0" stroke-width="1.5"/>
+                    <path d="M62 29Q210 459 358 29" fill="none" stroke="#315eea" stroke-width="4" stroke-linecap="round"/>
+                    <circle cx="210" cy="244" r="5" fill="#315eea"/>
+                    <text x="220" y="266" fill="#738098" font-size="13">0</text><text x="394" y="266" fill="#738098" font-size="15">x</text><text x="224" y="22" fill="#738098" font-size="15">y</text>
+                </svg>
+                <div class="board-bottom"><span class="check" aria-hidden="true">✓</span>Сложное становится понятным</div>
+                <span class="floating-note" aria-hidden="true">Всё начинается<br>с «а почему?» ✧</span>
+            </div>
+        </section>
+        <div class="demo-banner container"><span class="demo-tag">ДЕМО</span><p>Это пример сайта. Описание преподавателя, форматы и цены — демонстрационные данные. Реальные контакты пока не добавлены.</p></div>
+        <section class="section container about" id="about" aria-labelledby="about-title">
+            <div><p class="eyebrow">01 / О ПРЕПОДАВАТЕЛЕ</p><h2 id="about-title">На одной стороне<br>с учеником.</h2></div>
+            <div class="about-copy"><span class="label">Пример описания</span><p class="large-text">«Для меня важно, чтобы ученик мог задать любой вопрос — даже тот, который кажется слишком простым».</p><p>На занятиях можно разбирать школьные темы, возвращаться к пробелам и искать удобный способ решения. Без спешки и страха ошибиться.</p><p class="muted">Здесь появятся имя, фотография, образование и подтверждённый опыт преподавателя.</p></div>
+        </section>
+        <section class="benefits-section" id="benefits" aria-labelledby="benefits-title">
+            <div class="container section">
+                <div class="section-heading"><div><p class="eyebrow">02 / ПРЕИМУЩЕСТВА</p><h2 id="benefits-title">Меньше тревоги.<br>Больше ясности.</h2></div><p class="section-intro">Пример подхода к занятиям:<br>от первого вопроса до самостоятельного решения.</p></div>
+                <div class="benefit-grid">
+                    <article class="benefit"><span class="feature-icon" aria-hidden="true">↗</span><h3>В своём темпе</h3><p>Программа опирается на текущие знания и задачи ученика. К сложной теме можно вернуться.</p></article>
+                    <article class="benefit"><span class="feature-icon" aria-hidden="true">≈</span><h3>Понятным языком</h3><p>Наглядные примеры помогают увидеть смысл, а не просто запомнить правило.</p></article>
+                    <article class="benefit"><span class="feature-icon" aria-hidden="true">＋</span><h3>С практикой</h3><p>От совместного разбора — к самостоятельной работе. Ошибки становятся подсказками.</p></article>
+                </div>
+            </div>
+        </section>
+        <section class="section container" id="format" aria-labelledby="format-title">
+            <div class="section-heading"><div><p class="eyebrow">03 / ФОРМАТ ЗАНЯТИЙ</p><h2 id="format-title">Понятный путь<br>к вашей цели.</h2></div><p class="section-intro">Пример формата: индивидуально, онлайн.<br>Расписание обсуждается с преподавателем.</p></div>
+            <ol class="steps">
+                <li><span class="step-number">01</span><div><h3>Знакомимся</h3><p>Обсуждаем цель, трудности и ожидания от занятий.</p></div><span class="step-meta">Первый разговор</span></li>
+                <li><span class="step-number">02</span><div><h3>Находим точку старта</h3><p>Разбираем несколько задач и определяем, что стоит повторить.</p></div><span class="step-meta">План обучения</span></li>
+                <li><span class="step-number">03</span><div><h3>Разбираемся и практикуемся</h3><p>Изучаем тему, решаем задачи и постепенно повышаем сложность.</p></div><span class="step-meta">Регулярные занятия</span></li>
+            </ol>
+        </section>
+        <section class="pricing-section" id="pricing" aria-labelledby="pricing-title">
+            <div class="container section pricing-layout">
+                <div><p class="eyebrow">04 / СТОИМОСТЬ</p><h2 id="pricing-title">Время, посвящённое<br>пониманию.</h2><p class="section-intro">Два примера продолжительности занятия. Формат можно подобрать под задачу ученика.</p><p class="pricing-disclaimer">Цены приведены для демонстрации.<br>Это не действующее предложение.</p></div>
+                <div class="price-cards">
+                    <article class="price-card"><div class="price-top"><h3>Основное занятие</h3><span class="label">Пример</span></div><p class="duration">60 минут · индивидуально</p><p class="price">1 500 ₽ <span>/ занятие</span></p><p>Разбор темы и практика для закрепления материала.</p><a class="button button-outline" href="#contacts">Обсудить формат <span aria-hidden="true">↗</span></a></article>
+                    <article class="price-card price-card-blue"><div class="price-top"><h3>Расширенное занятие</h3><span class="label">Пример</span></div><p class="duration">90 минут · индивидуально</p><p class="price">2 000 ₽ <span>/ занятие</span></p><p>Больше времени для сложных тем и подробного разбора задач.</p><a class="button button-light" href="#contacts">Обсудить формат <span aria-hidden="true">↗</span></a></article>
+                </div>
+            </div>
+        </section>
+        <section class="section container contacts" id="contacts" aria-labelledby="contacts-title">
+            <div><p class="eyebrow">05 / КОНТАКТЫ</p><h2 id="contacts-title">Начнём с простого.<br><span class="accent">С разговора.</span></h2><p class="section-intro">Для знакомства достаточно рассказать, в каком вы классе, что вызывает трудности и какая цель у занятий.</p></div>
+            <div class="contact-placeholder"><span class="label">Демонстрационный блок</span><h3>Контакты скоро появятся</h3><p>Владелец сайта добавит сюда свой Telegram, электронную почту или телефон. Сейчас отправить заявку через сайт нельзя.</p><div class="contact-tip"><span aria-hidden="true">↗</span><p>Пример сообщения: «Здравствуйте! Ищу занятия по математике для ученика 8 класса. Хотим разобраться с уравнениями».</p></div></div>
+        </section>
+    </main>
+    <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home">TutorLanding<span class="accent">.</span></a><p>Демонстрационный сайт репетитора по математике</p><a href="#home">Наверх ↑</a></div></footer>
+</body>
+</html>
